@@ -24,7 +24,7 @@
                 <label for="exampleFormControlInput1" class="form-label">Inserisci parola da censurare</label>
                 <input type="text" class="form-control" name="word" placeholder="Parola">
             </div>
-            <button class="m-3 btn btn-outline-primary">Invia dati</button>
+            <button class="m-3 btn btn-outline-primary" type="submit">Invia dati</button>
         </form>
     </main>
 </body>
