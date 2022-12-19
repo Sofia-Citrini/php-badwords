@@ -14,6 +14,9 @@
 </head>
 
 <body>
+    <header class="py-3">
+        <h1 class="text-center text-primary">Badwords</h1>
+    </header>
     <main class="container py-3">
         <form action="demo.php" method="POST">
             <div class="m-3">

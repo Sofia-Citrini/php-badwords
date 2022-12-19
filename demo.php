@@ -20,11 +20,21 @@ $censuredParagraph = str_replace($word, '***', $paragraph);
 </head>
 
 <body>
-    <div><?php echo $paragraph ?></div>
-    <div><?php echo strlen($paragraph) ?></div>
+    <main class="container py-3">
+        <div>
+            <h4>Paragrafo originale</h4>
+            <div><?php echo $paragraph ?></div>
+            <div>Lunghezza paragrafo: <?php echo strlen($paragraph) ?></div>
+        </div>
+        
 
-    <div><?php echo $censuredParagraph ?></div>
-    <div><?php echo strlen($censuredParagraph) ?></div>
+        <div class="py-5">
+            <h4>Paragrafo censurato</h4>
+            <div><?php echo $censuredParagraph ?></div>
+            <div>Lunghezza paragrafo: <?php echo strlen($censuredParagraph) ?></div>
+        </div>
+        
+    </main>
 </body>
 </html>
 
