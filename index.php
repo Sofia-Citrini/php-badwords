@@ -15,18 +15,17 @@
 
 <body>
     <main class="container py-3">
-        <div class="m-3">
-            <label class="form-label">Inserisci un paragrafo</label>
-            <textarea class="form-control" name="paragraph"></textarea>
-        </div>
-        <div class="m-3">
-            <label for="exampleFormControlInput1" class="form-label">Inserisci parola da censurare</label>
-            <input type="text" class="form-control" name="word" placeholder="Parola">
-        </div>
-        <button class="m-3 btn btn-outline-primary">Invia dati</button>
+        <form action="demo.php" method="POST">
+            <div class="m-3">
+                <label class="form-label">Inserisci un paragrafo</label>
+                <textarea class="form-control" name="paragraph"></textarea>
+            </div>
+            <div class="m-3">
+                <label for="exampleFormControlInput1" class="form-label">Inserisci parola da censurare</label>
+                <input type="text" class="form-control" name="word" placeholder="Parola">
+            </div>
+            <button class="m-3 btn btn-outline-primary">Invia dati</button>
+        </form>
     </main>
-
-    
-    
 </body>
 </html>
